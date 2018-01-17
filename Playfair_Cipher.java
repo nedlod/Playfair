@@ -2,10 +2,6 @@ import java.util.Scanner;
 
 public class Playfair_Cipher {
     static char cipher[][] = new char[5][5];
-    static String message, decipherS, answer;
-    static StringBuilder cipherTxt = new StringBuilder();
-    static StringBuilder plainTxt = new StringBuilder();
-    static int index = 0, alphIndex = 0, length;
     static char[] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L',
             'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 
