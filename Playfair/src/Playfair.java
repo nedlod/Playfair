@@ -122,10 +122,7 @@ public class Playfair {
                         rowB = i;
                         colB = j;
                     }
-
-
                 }
-
             }
             msgIndex++;
         }
